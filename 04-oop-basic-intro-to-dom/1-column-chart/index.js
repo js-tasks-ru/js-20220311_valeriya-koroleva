@@ -96,3 +96,4 @@ getColumn (data) {
     }
   
 }
+}
