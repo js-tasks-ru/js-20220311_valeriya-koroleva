@@ -24,7 +24,7 @@ export default class ColumnChart {
       this.link = link;
       this.range = range;
       this.value = formatHeading(value);
-  
+      
       this.render();
       this.update(this.range.from, this.range.to);
     }
