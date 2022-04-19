@@ -1,5 +1,5 @@
 class Tooltip {
-  instance;
+  static instance;
   constructor() {
     if (Tooltip.instance) {
       return Tooltip.instance;
