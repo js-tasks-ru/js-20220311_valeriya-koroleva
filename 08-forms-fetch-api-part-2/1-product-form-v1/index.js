@@ -15,10 +15,12 @@ defaultFormData = {
   price: 100,
   discount: 0,
 };
+
 export default class ProductForm {
   constructor (productId) {
     this.productId = productId;
   }
+
   onSubmit = event => {
     event.preventDefault();
 
